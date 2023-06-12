@@ -98,13 +98,13 @@
   }
 
 /*For-tablet-portrait-up */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
     .app__navbar-login {
         display: flex;
     }
 }
 /*for-desktop-up*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1150px) {
     .app__navbar{
          padding: 1rem 2rem;
     }
@@ -119,7 +119,7 @@
 }
 }
 /*for-big-desktop-up*/
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 2000px) {
     .app__navbar{
         padding: 1rem 2rem;
    }

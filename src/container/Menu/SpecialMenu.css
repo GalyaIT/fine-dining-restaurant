@@ -47,7 +47,7 @@
 }
 
 /*For-tablet-portrait-up */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
     .app__specialMenu-menu_heading {    
         font-size: 45px;
           line-height: 58.5px;    
@@ -58,7 +58,7 @@
   }
 }
 /*for-desktop-up*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1150px) {
   .app__specialMenu-menu {
     flex-direction: row;
   }
@@ -72,7 +72,7 @@
   }
 }
 /*for-big-desktop-up*/
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 2000px) {
   .app__specialMenu-menu {
     flex-direction: row;
   }
@@ -81,7 +81,7 @@
       line-height: 58.5px;    
   }
   .app__specialMenu-menu_img {
-    width:410px;
-    margin: 0 2rem;
+    width:580px;
+    margin: 0 3rem;
   } 
 }
