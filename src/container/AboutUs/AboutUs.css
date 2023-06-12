@@ -12,10 +12,12 @@
     height: 415px;
     z-index: 0;
 }
+
 .app__aboutus-content {
     width: 100%;
     z-index: 2;
 }
+
 .app__aboutus-content_about {
     flex: 1;
     display: flex;
@@ -33,6 +35,7 @@
 .app__aboutus-content_knife img {
     height: 910px;
 }
+
 .app__aboutus-content_history {
     flex: 1;
     display: flex;
@@ -44,7 +47,7 @@
 }
 
 .app__aboutus-content_about p,
-.app__aboutus-content_history p{
+.app__aboutus-content_history p {
     margin: 2rem 0;
     color: var(--color-grey);
 }
