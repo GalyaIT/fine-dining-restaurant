@@ -3,6 +3,7 @@
     border: 0.5px solid var(--color-golden);
     background: var(--color-black);
     width: 100%;
+    z-index: 999;
 }
 
 .app__newsletter-heading {
