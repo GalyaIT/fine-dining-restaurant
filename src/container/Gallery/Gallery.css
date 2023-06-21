@@ -63,15 +63,8 @@
 .app__gallery-images_card:hover .gallery__image-icon {
     opacity: 1;
 }
-.app__gallery-images_arrows {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 0 1rem;
-    position: absolute;
-    bottom: 5%;
+.app__gallery-images_arrows {   
+    display: none;
 }
 .gallery__arrow-icon {
     color: var(--color-golden);
@@ -94,7 +87,19 @@
         margin: 3rem 0;
      } 
 }
-
+/*for-laptop-up*/
+@media screen and (min-width: 850px) {
+    .app__gallery-images_arrows {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 0 1rem;
+        position: absolute;
+        bottom: 5%;
+    }
+}
 /*for-desktop-up*/
 @media screen and (min-width: 1150px) {
     .app__gallery {
@@ -108,6 +113,7 @@
     .app__gallery-images {        
         margin: 5rem 0;
     } 
+
 }
 
 /*for-big-desktop-up*/

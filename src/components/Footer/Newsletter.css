@@ -36,10 +36,6 @@
     margin-bottom: 1rem;
 }
 
-.app__newsletter-input button {
-    padding: 2px 16px;
-}
-
 /*For-tablet-portrait-up */
 @media screen and (min-width: 650px) {
     .app__newsletter-input {

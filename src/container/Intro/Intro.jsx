@@ -13,23 +13,25 @@ const Intro = () => {
   const handleVideo = () => {
     setPlayVideo((prevPlayVideo) => !prevPlayVideo);
 
-    if (playVideo) {
+    if (playVideo) {      
       vidRef.current.pause();
-    } else {
-      vidRef.current.play();
+      
+    } else {      
+      vidRef.current.play();      
     }
   }
 
   return (
-    <div className="app__video">
+    <div className="app__video">         
       <video
         src={meal}
         ref={vidRef}
         typeof="video/mp4"
         loop
         controls={false}
+        disablePictureInPicture
         muted
-      />
+     />
       <div className="app__video-overlay flex__center">
         <div className="app__video-overlay_circle flex__center"
           onClick={handleVideo}

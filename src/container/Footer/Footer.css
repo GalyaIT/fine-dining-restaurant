@@ -26,18 +26,15 @@
 }
 
 .app__footer-links_contact p,
+.app__footer-links_logo p,
 .app__footer-links_work p {
     color: var(--color-gray);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .app__footer-links_logo img:first-child {
     width: 180px;
     margin-bottom: 0.75rem;
-}
-
-.app__footer-links_logo p {
-    font-weight: 100;
 }
 
 .app__footer-links_work p:nth-child(2n + 1) {
@@ -49,7 +46,7 @@
 }
 
 .app__footer-links_icons svg {
-    color: var(--color-white);
+    color: var(--color-grey);
     margin: 0.5rem;
     font-size: 24px;
     cursor: pointer;
@@ -76,9 +73,8 @@
 }
 
 .footer__copyright p {
-    margin-top: 3rem;
-    color: var(--color-gray);
-    font-weight: 500;
+    margin-top: 3rem;    
+    font-weight: 300;
 }
 
 
