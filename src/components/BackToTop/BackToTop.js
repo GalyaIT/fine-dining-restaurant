@@ -10,8 +10,10 @@ const BackToTop = () => {
 
   function scrollFunction() {
     if (
-      document.body.scrollTop > 20 || // For Safari
-      document.documentElement.scrollTop > 20 // For Chrome, Firefox, IE and Opera
+      // document.body.scrollTop // For Safari
+      // document.documentElement.scrollTop // For Chrome, Firefox, IE and Opera
+      document.documentElement.scrollTop > 350 ||
+      document.body.scrollTop > 350
     ) {
       setBtnTop(true);
     } else {

@@ -4,6 +4,7 @@ import FooterOverlay from './Footer/FooterOverlay';
 import MenuItem from './Menuitem/MenuItem';
 import Navbar from './Navbar/Navbar';
 import BackToTop from './BackToTop/BackToTop';
+import Loader from './Loader/Loader';
 
 export {
   SubHeading,
@@ -11,5 +12,6 @@ export {
   FooterOverlay,
   MenuItem,
   Navbar,
-  BackToTop
+  BackToTop,
+  Loader
 };

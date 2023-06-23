@@ -22,7 +22,7 @@ const Laurels = () => (
       <h1 className="headtext__cormorant">Our Laurels</h1>
 
       <div className="app__laurels_awards">
-      <img className="app__lauers_awardLogo" src={images.logo} alt="awards" />
+      <img className="app__lauers_awards-logo" src={images.logo} alt="awards" />
         {data.awards.map((award) => <AwardCard award={award} key={award.title} />)}
       </div>
     </div>

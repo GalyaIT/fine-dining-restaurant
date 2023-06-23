@@ -53,7 +53,7 @@
     border-radius: var(--border-radius);
     opacity:0;     
     transition: all 0.3s ease-in-out;
-    animation: fade-out 1s;  
+    animation: fade-out 0.5s;  
   } 
 
   #back-to-top .topHide:before {

@@ -22,6 +22,7 @@
 a {
   color: unset;
   text-decoration: none;
+  outline: none;
 }
 
 .slide-bottom {

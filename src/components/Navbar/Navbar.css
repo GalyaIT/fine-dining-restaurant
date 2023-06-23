@@ -52,7 +52,7 @@
 }
 
 .app__navbar-smallscreen {
-    display: flex;
+    display: flex; 
 }
 
 .app__navbar-smallscreen_overlay {

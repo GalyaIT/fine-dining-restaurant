@@ -21,6 +21,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import gericht02 from '../assets/gericht02.png';
+import loader from '../assets/loader.gif';
 
 export default {
   bg,
@@ -45,5 +46,6 @@ export default {
   sign,
   quote,
   gericht,
-  gericht02
+  gericht02, 
+  loader
 };
