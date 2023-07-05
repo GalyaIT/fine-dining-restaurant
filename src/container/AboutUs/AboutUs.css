@@ -65,11 +65,7 @@
 @media screen and (min-width: 1150px) {
     .app__aboutus-content {
         flex-direction: row;
-    }
-    .app__aboutus-overlay img {
-        width: 391px;
-        height: 415px;      
-    }    
+    }   
 }
 /*for-big-desktop-up*/
 @media screen and (min-width: 2000px) {
@@ -80,9 +76,5 @@
     .app__aboutus-content_about p,
     .app__aboutus-content_history p {
         margin: 4rem 0;
-    }
-    .app__aboutus-overlay img {
-        width: 391px;
-        height: 415px;      
-    }
+    }   
 }

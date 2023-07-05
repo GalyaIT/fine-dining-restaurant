@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { images, data } from '../../constants';
 import { SubHeading, MenuItem } from '../../components';
 
@@ -32,7 +33,7 @@ const SpecialMenu = () => (
        </div>
     </div>
    <div style={{marginTop:"15px"}}>
-            <button type="button" className="custom__button">View More</button>
+    <Link to="*"> <button type="button" className="custom__button">View More</button></Link>           
    </div>
   </div>
 );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 
@@ -13,7 +14,7 @@ const FindUs = () => (
         <p className="p__opensans" style={{textTransform: 'none', fontWeight:"100"}}>Mon - Fri: 10:00 am - 02:00 am</p>
         <p className="p__opensans" style={{textTransform: 'none',fontWeight:"100"}}>Sat - Sun: 10:00 am - 03:00 am</p>
       </div>
-      <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Visit Us</button>
+      <Link to="*"> <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Visit Us</button></Link>     
     </div>
     <div className="app__wrapper_img">
       <img src={images.findus} alt="finus_img" />

@@ -1,8 +1,11 @@
 import React, {useState, useEffect} from 'react';
+import {Routes, Route} from 'react-router-dom';
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
-import { Navbar, BackToTop, Loader } from './components';
+// import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { Loader } from './components';
 import './App.css';
+import Home from './pages/Home/Home';
+import PageNotFound from './pages/PageNotFound/PageNotFound';
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -18,7 +21,7 @@ if(loading){
 }
   return (
     <div>     
-      <Navbar />
+      {/* <Navbar />
       <Header />
       <AboutUs />
       <SpecialMenu />
@@ -28,7 +31,12 @@ if(loading){
       <Gallery />
       <FindUs />
       <Footer />
-      <BackToTop/>    
+      <BackToTop/>  */}
+      
+      <Routes>   
+      <Route path="/" element={<Home /> }/>    
+      <Route path="*" element={<PageNotFound /> }/>
+    </Routes>   
     </div>
   );
 }
