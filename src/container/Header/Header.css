@@ -13,9 +13,11 @@
 }
 .app__header-img{
     margin-top: 4rem;
+    width: 80%;
+    height:100%;
 }
 .app__header-img img {
-    width: 80%;
+    width: 100%;
 }
 /*For-tablet-portrait-up */
 @media screen and (min-width: 650px) {

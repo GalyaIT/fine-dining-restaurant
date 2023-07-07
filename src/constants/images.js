@@ -22,6 +22,9 @@ import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import gericht02 from '../assets/gericht02.png';
 import loader from '../assets/loader.gif';
+import welcome2 from '../assets/welcome2.png';
+import welcome3 from '../assets/welcome3.png';
+import welcome4 from '../assets/welcome4.png';
 
 export default {
   bg,
@@ -47,5 +50,8 @@ export default {
   quote,
   gericht,
   gericht02, 
-  loader
+  loader,
+  welcome2,
+  welcome3,
+  welcome4
 };
