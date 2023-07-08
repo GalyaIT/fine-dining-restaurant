@@ -2,10 +2,11 @@ import React, {useState, useEffect} from 'react';
 import {Routes, Route} from 'react-router-dom';
 
 // import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
-import { Loader } from './components';
+import { Loader, BackToTop } from './components';
 import './App.css';
 import Home from './pages/Home/Home';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
+import ScrollToTop from "../src/hooks/ScrollToTop";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -20,23 +21,14 @@ if(loading){
   return  <Loader />
 }
   return (
-    <div>     
-      {/* <Navbar />
-      <Header />
-      <AboutUs />
-      <SpecialMenu />
-      <Chef />
-      <Intro />
-      <Laurels />
-      <Gallery />
-      <FindUs />
-      <Footer />
-      <BackToTop/>  */}
-      
+    <div>    
+      <ScrollToTop/>
+      <BackToTop />  
       <Routes>   
-      <Route path="/" element={<Home /> }/>    
-      <Route path="*" element={<PageNotFound /> }/>
-    </Routes>   
+        <Route path="/" element={<Home /> }/>    
+        <Route path="*" element={<PageNotFound /> }/>
+      </Routes> 
+    
     </div>
   );
 }

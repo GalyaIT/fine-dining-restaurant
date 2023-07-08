@@ -14,7 +14,7 @@ const Home = () => {
             <Gallery />
             <FindUs />
             <Footer />
-            <BackToTop />
+            {/* <BackToTop /> */}
         </div>
     )
 }

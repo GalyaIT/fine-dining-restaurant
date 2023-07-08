@@ -10,16 +10,19 @@ const PageNotFound = () => (
   <>
   <Navbar/>
     <div className="app__notfound app__bg flex__center section__padding">     
-        <div className="app__notfound-overlay flex__center">
+        {/* <div className="app__notfound-overlay flex__center">
             <img src={images.G} alt="G_overlay" />
-        </div>
+        </div> */}
         <div className="app__notfound-content">
             <div className="app__notfound-content_title">
-                <h1>404</h1>
-                <img src={images.spoon} alt="about_spoon" className="spoon__img" />
+                <img src={images.notFound} alt="404" />
+                <img src={images.spoon} alt="about_spoon" className="spoon__img" style={{marginTop:"15px"}}/>
             </div>
-            <p className="p__opensans">Oops! The page you are looking for does not exist. It might
-                have been moved or deleted.</p>
+            <div className="app__notfound-content_info">
+                <h4 className="p__cormorant">Oops! This page is not found.</h4>
+            <p className="p__opensans">The requested page does not exist.</p> 
+            </div>  
+
             <Link to="/"><button type="button" className="custom__button">Back To Home</button></Link>
         </div>    
     </div>    

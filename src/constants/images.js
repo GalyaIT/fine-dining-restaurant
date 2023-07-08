@@ -25,6 +25,7 @@ import loader from '../assets/loader.gif';
 import welcome2 from '../assets/welcome2.png';
 import welcome3 from '../assets/welcome3.png';
 import welcome4 from '../assets/welcome4.png';
+import notFound from '../assets/404.png';
 
 export default {
   bg,
@@ -53,5 +54,6 @@ export default {
   loader,
   welcome2,
   welcome3,
-  welcome4
+  welcome4,
+  notFound
 };
