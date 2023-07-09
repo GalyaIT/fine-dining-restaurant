@@ -17,7 +17,7 @@ const Carousel = ({ slides }) => {
   useEffect(() => {
     const timeout = setTimeout(
       () => setCurrent((current + 1 + length) % length),
-      10000
+      8000
     );
     return () => clearTimeout(timeout);
   }, [current, length]);

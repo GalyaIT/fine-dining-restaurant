@@ -7,6 +7,7 @@ import './App.css';
 import Home from './pages/Home/Home';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
 import ScrollToTop from "../src/hooks/ScrollToTop";
+import ComingSoon from './pages/ComingSoon/ComingSoon';
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -27,6 +28,7 @@ if(loading){
       <Routes>   
         <Route path="/" element={<Home /> }/>    
         <Route path="*" element={<PageNotFound /> }/>
+        <Route path="/coming-soon" element={<ComingSoon /> }/>
       </Routes> 
     
     </div>
