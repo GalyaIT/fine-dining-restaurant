@@ -22,7 +22,10 @@ const Countdown = () => {
 
   return (
     <div className='app__countdown app__bg flex__center section__padding'>
-      <h2>Coming soon</h2>
+      <div className='app__countdown-title'>
+          <h2>Coming soon</h2>
+      </div>
+    
       <div className='app__countdown-content'>        
             <div className='app__countdown-content_box'>
               <div className='value'>
