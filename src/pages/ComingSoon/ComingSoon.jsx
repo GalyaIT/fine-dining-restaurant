@@ -1,11 +1,14 @@
-import React from 'react'
-import Countdown from '../../components/Countdown/Countdown'
+import React from 'react';
+import { Navbar, Countdown } from "../../components";
+import Footer from "../../container/Footer/Footer";
 
 const ComingSoon = () => {
 
   return (
     <div>
-      <Countdown/>
+      <Navbar />
+      <Countdown />
+      <Footer />
     </div>
   )
 }

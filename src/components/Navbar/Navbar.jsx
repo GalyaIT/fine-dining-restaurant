@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import images from '../../constants/images';
@@ -19,10 +20,10 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.gericht} alt="logo" />
+        <Link to="/"><img src={images.gericht} alt="logo" /></Link>        
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans"><a href="#home">Home</a></li>
+        <li className="p__opensans"><Link to="/">Home</Link></li>
         <li className="p__opensans"><a href="#about">About</a></li>
         <li className="p__opensans"><a href="#menu">Menu</a></li>
         <li className="p__opensans"><a href="#awards">Awards</a></li>
@@ -39,7 +40,7 @@ const Navbar = () => {
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">
-              <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#home" >Home</a></li>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}><Link to="/">Home</Link></li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#about">About</a></li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#menu">Menu</a></li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#awards">Awards</a></li>

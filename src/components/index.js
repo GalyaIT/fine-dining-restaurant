@@ -5,6 +5,7 @@ import MenuItem from './Menuitem/MenuItem';
 import Navbar from './Navbar/Navbar';
 import BackToTop from './BackToTop/BackToTop';
 import Loader from './Loader/Loader';
+import Countdown from './Countdown/Countdown';
 
 export {
   SubHeading,
@@ -13,5 +14,6 @@ export {
   MenuItem,
   Navbar,
   BackToTop,
-  Loader
+  Loader,
+  Countdown
 };

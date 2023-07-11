@@ -9,11 +9,8 @@ import Footer from "../../container/Footer/Footer";
 const PageNotFound = () => (
   <>
   <Navbar/>
-    <div className="app__notfound app__bg flex__center section__padding">     
-        {/* <div className="app__notfound-overlay flex__center">
-            <img src={images.G} alt="G_overlay" />
-        </div> */}
-        <div className="app__notfound-content">
+    <div className="app__notfound app__bg flex__center section__padding"> 
+         <div className="app__notfound-content">
             <div className="app__notfound-content_title">
                 <img src={images.notFound} alt="404" />
                 <img src={images.spoon} alt="about_spoon" className="spoon__img" style={{marginTop:"15px"}}/>
