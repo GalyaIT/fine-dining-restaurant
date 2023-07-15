@@ -2,6 +2,7 @@ import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, Special
 import { Navbar, BackToTop } from '../../components';
 
 const Home = () => {
+    
     return (
         <div>
             <Navbar />

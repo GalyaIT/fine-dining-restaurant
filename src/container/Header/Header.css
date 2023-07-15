@@ -1,7 +1,6 @@
 .app__header {
     background-color: var(--color-black);
 }
-
 .app__header-h1 {
     font-family: var(--font-base);
     color: var(--color-golden);
@@ -20,7 +19,7 @@
     width: 100%;
 }
 /*For-tablet-portrait-up */
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 650px) {  
     .app__header-h1 {
         font-size: 70px;
         line-height: 87px;
@@ -30,6 +29,9 @@
 @media screen and (min-width: 1150px) {
     #home{
         min-height: auto;
+    }
+    .app__wrapper-info p{
+        padding-right: 50px;
     }
     .app__header-h1 {
         font-size: 90px;

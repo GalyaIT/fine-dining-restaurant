@@ -58,6 +58,7 @@
 }
 .app__gallery-images_card:hover img {
     opacity: 0.35;
+    transform: scale(1.1);
 }
 
 .app__gallery-images_card:hover .gallery__image-icon {
