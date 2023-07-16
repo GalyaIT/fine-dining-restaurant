@@ -1,0 +1,72 @@
+.app__comingsoon {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.app__comingsoon-title {
+  height: 160px;
+}
+
+.app__comingsoon-title h2 {
+  font-family: var(--font-base);
+  width: 80%;
+  margin: 0 auto;
+  color: var(--color-golden);
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  animation: scale-up 2s ease-out;
+}
+
+/*For-tablet-portrait-up */
+@media screen and (min-width: 650px) {
+  .app__comingsoon {
+    height: auto;   
+    /* gap: 25px; */
+  }
+
+  .app__comingsoon-title {
+    height: 100px;
+    margin-top: 50px;
+  }
+  .app__comingsoon-title h2 {
+    width: 100%;
+  }
+}
+/*For-tablet-portrait-up */
+@media screen and (min-width: 750px) {
+    .app__comingsoon { 
+        height: 95vh;     
+        
+      }
+  }
+  
+/*for-desktop-up*/
+@media screen and (min-width: 1150px) {
+   
+  .app__comingsoon-title h2 {
+    font-size: 80px;
+  }
+}
+
+/*for-big-desktop-up*/
+@media screen and (min-width: 2000px) {
+    .app__comingsoon { 
+        
+        gap: 10px;
+      }
+}
+
+@keyframes scale-up {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

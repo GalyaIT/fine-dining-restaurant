@@ -1,5 +1,6 @@
 .app__aboutus {
-    position: relative;    
+    position: relative;  
+    overflow: hidden;   
 }
 
 .app__aboutus-overlay {

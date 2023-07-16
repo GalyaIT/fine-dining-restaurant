@@ -1,6 +1,7 @@
 .app__specialMenu {
   flex-direction: column;
   background: var(--color-black);
+  overflow: hidden; 
 }
 .app__specialMenu-title {
   margin-bottom: 2rem;
