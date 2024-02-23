@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import moment from "moment";
 import './Countdown.css';
 
-const targetTime = moment("20323-12-31");
+const targetTime = moment("2024-12-31");
 
 const Countdown = () => {
   const [currentTime, setCurrentTime] = useState(moment());
